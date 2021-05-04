@@ -1,10 +1,10 @@
-header {background-image: url(https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+header {background-image: url(https://images.pexels.com/photos/1199960/pexels-photo-1199960.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 background-size: cover;
 background-position: center;
 height: 100vh;
 }
 
-ul{float: right;
+header ul{float: right;
 list-style-type: none;
  }
 
@@ -14,9 +14,22 @@ ul li a {text-decoration: none;
 color:  #f4f4f4;
 border: solid #f4f4f4;
 padding: 5px 20px;
-
 }
 
-span ul li{color:  #222831;
+ul li a:hover{
+  color:#222831;
+  background-color: whitesmoke;
+}
+header div h3 {color: white;
+margin-left: 12px;
+font-size: 60px;
+position: absolute;
+}
+header div p {color: white;
+margin-left: 20px;
+position: absolute;
+}
+
+footer{color:  #222831;
 font-size: 12px;
-  float: unset;}
+  text-align: center;}
