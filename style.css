@@ -20,6 +20,8 @@ ul li a:hover{
   color:#222831;
   background-color: whitesmoke;
 }
+
+
 header div h3 {color: white;
 margin-left: 12px;
 font-size: 60px;
@@ -32,4 +34,22 @@ position: absolute;
 
 footer{color:  #222831;
 font-size: 12px;
-  text-align: center;}
+text-align: center;}
+
+.button{position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);}
+
+.btn{padding: 10px 30px;
+border: 3px solid #f4f4f4;
+color:  #f4f4f4;
+text-decoration: none;
+}
+.btn:hover{
+  color:#222831;
+  background-color: whitesmoke;
+}
+
+
+ 
